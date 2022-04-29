@@ -1,0 +1,183 @@
+h2, h3, h4, time, p, a, button, header div, .joinSection > div > div div.inbox input{
+    font-family: 'NEXON Football Gothic L';
+}
+a{
+    text-decoration: none; color: black;
+}
+address{
+    font-style: normal;
+}
+.material-icons-outlined{font-family: 'Material Icons';}
+
+
+@media screen and (min-width: 1280px){
+    html{
+        height: 100%;
+    }
+    header{
+        padding: 20px 70px;
+    }
+    header > h1{
+        width: 100%; max-width: 133px; float: left; display: block;
+    }
+    header nav{
+        margin: 0  0 60px 33%; line-height: 50px;
+    }
+    header nav:after{
+        display: block; content: ''; clear: both;
+    }
+    header nav ul.navList{
+        float: left; width: 100%; max-width: 630px;
+    }
+    header nav ul.navList li{
+        font-size: 30px; display: inline-block;
+    }
+    header nav ul.navList li:not(:first-child){
+        margin-left: 14%;
+    }
+    header nav button.btn01{
+        font-size: 30px; border: none; background: none; margin-left: 33%;
+        vertical-align: bottom; cursor: pointer;
+    }
+    header div:nth-child(3){
+        font-size: 40px; max-width: 1440px; width: 100%; margin: 0 auto;
+    }
+    header div p{
+        display: inline-block;
+    }
+    header div input.search{
+        max-width: 1200px; width: 100%; height: 40px; border-radius: 40px; margin-left: 60px; padding: 0 20px; 
+        font-size: 30px;
+    }
+    header div span.material-icons{
+        position: relative; left: -60px; font-size: 40px; vertical-align: middle;
+        cursor: pointer;
+    }
+
+    form.popup01{
+        position: fixed; width: 100%; height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);justify-content: center; align-items: center;
+        display: none; z-index: 2;
+    }
+    form.popup01.active{
+        display: flex;
+    }
+    form.popup01 > div{
+        position: relative; max-width: 960px; width: 100%; height: 930px;
+        background-color: white;
+    }
+    form.popup01 div .logobox{
+        margin: 20px 0 10px; text-align: center;
+    }
+    form.popup01 div .LPage h2{
+        margin-bottom: 40px; font-size: 30px; text-align: center;
+    }
+    form.popup01 ul{
+        width: 750px; list-style:none;display: block; margin: 0px auto;  margin-left: 100px; ;
+    }
+    form.popup01 ul li img{
+        display: block; margin: 0px auto;  margin-top: 20px;
+    }
+    form.popup01 ul li input{
+        font-size: 30px;
+    }
+    form.popup01 ul li input.ID{
+        height: 80px;  width: 100%; display: block; margin-bottom: 15px;
+    } 
+    form.popup01 ul li.chkbox {
+        line-height: 25px; margin-bottom: 30px;
+    }
+    form.popup01 .input #chkId {
+        height:25px ; width:25px;  display: inline-block;  margin: 0;
+    }
+    form.popup01 div.logo{
+        margin-top: 20px;
+    }
+    form.popup01 div.input{
+       margin-bottom: 30px;
+    }
+    form.popup01 div.logo h2{
+        text-align: center; font-size: 30px; font-weight: 300; color: #999999;
+        margin-top: 10px;  margin-bottom: 40px;
+    }
+    form.popup01 div.btn{
+        margin-bottom: 55px;
+    }
+    form.popup01 div.btn li a{
+        height:80px ; font-size: 30px; font-weight: 700; width: 750px;
+        text-align: center; line-height: 80px; display: block;
+    }
+    form.popup01 #Login a{
+         background-color:#333333 ; color:#F2F2F2; margin-bottom:30px; 
+    }
+    form.popup01 #Naver a{
+         background-color:#00C63B ; color:#F2F2F2; margin-bottom: 10px;
+    }
+    form.popup01 #Facebook a{
+         background-color:#3B579D ; color:#F2F2F2; margin-bottom: 10px;
+    }
+    form.popup01 #Kakao a{
+         background-color:#FAE100 ; color:#000000;
+    }
+    form.popup01 div.submenu{
+        width: 750px; text-align: center; list-style:none;display: block;  margin-left: 100px; 
+    }
+    form.popup01 div.submenu a{
+        margin-right: 15px; font-weight: 400;font-size: 16px;line-height: 18px;color: #c2c2c2; cursor: pointer;
+    }
+    form.popup01 div.submenu a:not(:first-child){
+        border-left: 2px solid #c2c2c2; padding-left: 10px;
+    }
+    form.popup01 .material-icons-outlined{
+        position: absolute; right: 0px; top: 0px; color: black; cursor: pointer; font-size: 50px;
+    }
+    form.popup01 span{
+        text-shadow: 5px 5px 5px rgb(0 0 0 / 50%)
+    }
+
+    footer{
+        background-color: #333; padding: 0 13.54%;
+    }
+    footer div{
+        color: #fff;
+    }
+    footer > div:first-child,
+    footer > div:last-child{
+        width: 100%; max-width: 1440px;
+    }
+    footer div ul{
+        list-style: none; border-bottom: 1px solid #fff; padding: 60px 0 80px;
+    }
+    footer div ul::after{
+        display: block; content: ''; clear: both;
+    }
+    footer div ul li{
+        float: left; font-size: 30px;
+    }
+    footer div ul li:not(:first-child){
+        margin-left: 20%;
+    }
+    footer div ul li a,
+    footer div:last-child address span a{
+        color: #fff;
+    }
+    footer > div:last-child{
+        padding: 60px 0 80px;
+    }
+    footer div:last-child::after{
+        display: block; content: ''; clear: both;
+    }
+    footer div:last-child address{
+        float: left;
+    }
+    footer div:last-child address span{
+        font-size: 20px;
+    }
+    footer div:last-child address span:not(:last-child){
+        display: block; margin-bottom: 10px;
+    }
+    footer > div:last-child div{
+        margin-left: 95%; display: flex; align-items: center;
+    }
+
+}

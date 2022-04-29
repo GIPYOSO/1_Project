@@ -1,0 +1,209 @@
+
+
+@media screen and (min-width: 1280px){
+    .slideB{
+        position: relative; margin-bottom: 70px;
+    }
+    .slideB .bx-wrapper{box-shadow: none; border: none; background: none; margin-bottom: 0;}
+    .bx-wrapper .bx-pager{padding-top: 0;}
+
+    .bx-wrapper .bx-prev{left: 2.6%; background: url(../img/controls_left.png) no-repeat 0 0;}
+    .bx-wrapper .bx-next{right: 3.6%; background: url(../img/controls_right.png) no-repeat 0;}
+    .bx-wrapper .bx-controls-direction a{width: 7%; height: 16%; margin-top: -90px; z-index: 1;}
+    .bx-wrapper .bx-next:hover,
+    .bx-wrapper .bx-next:focus {background-position: 0;}
+    .slideB .bx-wrapper .bx-pager.bx-default-pager a{border: 1px solid #fff; background: none;}
+    .slideB .bx-wrapper .bx-pager.bx-default-pager a:hover,
+    .slideB .bx-wrapper .bx-pager.bx-default-pager a.active,
+    .slideB .bx-wrapper .bx-pager.bx-default-pager a:focus {background: #fff;}
+    .slideB .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 80px; padding-top: none;}
+    .slideB ol li{position: relative;}
+    
+    li.slidbg1.bx-clone,
+    li.slidbg2.bx-clone{
+        width: 1943px;
+    }
+    .slideB ol li.slidbg1{
+        background: url(../img/main_1.jpg); width: 100%; height: 833px;
+    }
+    .slideB ol li.slidbg2{
+        background: url(../img/main_2.jpg); width: 100%; height: 833px;
+    }
+    .slideB ol li.slidbg3{
+        background: url(../img/main_3.jpg); width: 100%; height: 833px;
+    }
+    .slideB ol li.slidbg4{
+        background: url(../img/main_4.jpg); width: 100%; height: 833px;
+    }
+    .slideB ol li.slidbg5{
+        background: url(../img/main_5.jpg); width: 100%; height: 833px;
+    }
+    .slideB div.slide{
+        position: absolute; width: 100%; padding-left: 260px;
+        bottom: 330px;
+    }
+    .slideB div.slide h2{
+        font-size: 60px; color: #f2f2f2; margin-bottom: 20px;
+    }
+    .slideB div.slide p{
+        font-weight: bold; font-size: 30px; margin-bottom: 40px;
+        color: #f2f2f2;
+    }
+    .slideB ol li div a{
+        font-size: 30px; border: 1px solid #f2f2f2; color: #f2f2f2;
+    }
+    .slideB > div .btn.white{
+        font-weight: bold; font-size: 30px; padding: 15px 50px; display: inline-block;
+    }
+
+    /*! Main Page fin*/
+
+    .ContSection{
+        max-width: 1440px; width: 100%; margin: 0 auto; background-color: #f2f2f2;
+    }
+    .ContSection > div:first-child{
+        border-bottom: 1px solid #c2c2c2; margin-bottom: 40px;
+    }
+    .ContSection > div h2{
+        line-height: 60px; font-size: 30px;
+    }
+    .ContSection div:last-child div{
+        margin-bottom: 15px;
+    }
+    .ContSection div:last-child::after{
+        display: block; content: ''; clear: both;
+    }
+    .ContSection div:last-child div video{
+        width: 360px; float: left;
+    }
+    .ContSection div:last-child > div div{
+        margin-left: 26%;
+    }
+    .ContSection div:last-child > div:last-child{
+        margin-bottom: 40px;
+    }
+    .ContSection div:last-child > div div h3{
+        font-size: 18px; margin-bottom: 10px;
+    }
+    .ContSection div:last-child > div div span,
+    .ContSection div:last-child > div div time{
+        font-size: 12px; margin-bottom: 35px; display: inline-block;
+    }
+    .ContSection div:last-child > div div time{
+        margin-left: 55px;
+    }
+    .ContSection div:last-child > div div p{
+        font-size: 12px; line-height: 20px;
+    }
+
+    /*! 컨텐츠 페이지 fin */
+
+    .joinSection{
+        max-width: 1440px; width: 100%; margin: 0 auto; text-align: center;
+        margin-bottom: 70px;
+    }
+    .joinSection h1{
+        text-align: center;  margin: 80px 0 25px;
+    }
+    .joinSection > div{
+        margin-bottom: 60px;
+    }
+    .joinSection > div h2{
+        font-size: 50px; margin-bottom: 95px;
+    } 
+    .joinSection > div > div{
+        display: flex; align-items: center; justify-content: center; width: 100%;
+    }
+    
+    .joinSection > div > div div{
+        max-width: 720px; width: 50%; 
+    }
+    .joinSection > div > div div.inbox{
+        border-right: 2px solid #777;
+    }
+    .joinSection > div > div div.inbox input{
+        width: 60%; height: 50px; font-size: 30px; border: none; border-bottom: 1px solid #c2c2c2;
+    }
+    .joinSection > div > div div.inbox input:not(:last-child){
+        margin-bottom: 45px;
+    }
+    .joinSection > div > div div.snsbox ul{
+        list-style: none; margin-left: 19%;
+    }
+    .joinSection > div > div div.snsbox ul li a{
+        font-size: 30px; max-width: 500px; width: 100%; line-height: 60px; display: block;
+    }
+    .joinSection > div > div div.snsbox ul li.naver a{
+        background-color: #00c63b;
+    }
+    .joinSection > div > div div.snsbox ul li.fb a{
+        background-color: #3b579d;
+    }
+    .joinSection > div > div div.snsbox ul li.kakao a{
+        background-color: #fae100;
+    }
+    .joinSection > div > div div.snsbox ul li.naver a,
+    .joinSection > div > div div.snsbox ul li.fb a{
+        color: #f2f2f2;
+    }
+    .joinSection > div > div div.snsbox ul li:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .joinSection button{
+        border-radius: 0; background-color: #333; color: #f2f2f2; border-style: none; width: 200px; height: 60px;
+        font-size: 30px; cursor: pointer;
+    }
+    .joinSection button:hover{
+        background-color: #f2f2f2; color: #333; border: 1px solid #333;
+    }
+
+    /*! 회원가입 fin */
+
+    .playSection{
+        max-width: 1440px; width: 100%; margin: 0 auto; padding-bottom: 95px;
+        background-color: #f6f6f6; 
+    }
+    .playSection h2{
+        display: none;
+    }
+    .playSection div,
+    .playSection form{
+        max-width: 1100px; width: 100%; margin: 0 auto;
+    }
+    .playSection > div video{
+        width: 100%; height: 625px; margin: 20px 0;
+    }
+    .playSection > div:nth-child(3){
+        border-bottom: 1px solid #333; margin-bottom: 30px;
+    }
+    .playSection > div:nth-child(3) h3{
+        font-size: 18px; margin-bottom: 10px;
+    }
+    .playSection > div:nth-child(3) p,
+    .playSection > form h3{
+        font-size: 12px; margin-bottom: 20px;
+    }
+    .playSection > form input{
+        width: 90%; height: 25px; margin-bottom: 60px; color: #c2c2c2; border-style: c2c2c2;
+    }
+    .playSection > form  button{
+        border: 1px solid #333; background-color: #333; color: #f2f2f2; width: 9%; height: 31px; vertical-align: middle;
+        cursor: pointer; margin-bottom: 60px;
+    }
+    .playSection > form button:hover{
+        border: 1px solid #333; background-color: white; color: #333;
+    }
+    .playSection > form ul li{
+        list-style: none; border-bottom: 1px solid #c2c2c2; margin-bottom: 20px;
+    }
+    .playSection > form ul li h4,
+    .playSection > form ul li p{
+        margin-bottom: 10px; font-size: 12px;
+    }
+    .playSection > form ul li time{
+        margin-bottom: 20px; display: block; font-size: 12px;
+        color: #a2a2a2;
+    }
+    
+}
+/*? desktop */ 
